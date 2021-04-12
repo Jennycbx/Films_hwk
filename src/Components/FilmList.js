@@ -3,7 +3,7 @@ import Film from './Film';
 const FilmList = ({films}) => {
 
     const filmNodes = films.map((film) => {
-        return <Film url={film.url} key={film.id}>{film.title}</Film>
+        return <Film title={film.title} src={film.url} key={film.id}></Film>
     })
 
     return (
@@ -12,3 +12,5 @@ const FilmList = ({films}) => {
         </>
     )
 }
+
+export default FilmList;

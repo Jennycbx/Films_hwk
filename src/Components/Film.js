@@ -1,9 +1,9 @@
-const Film = ({title}) => {
+const Film = ({title, url}) => {
 
     return (
         <>
             <h3>{title}</h3>
-            <href>{url}</href>
+            <p>{url}</p>
         </>
     )
 }
