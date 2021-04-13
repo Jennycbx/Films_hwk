@@ -4,29 +4,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://static7.depositphotos.com/1222912/788/i/600/depositphotos_7887354-stock-photo-stars-background-01.jpg);
+  text-align: center;
 }
 
 #root {
-  margin: 25px
+  margin: 25px;
+  
+}
+
+#header {
+  color:red;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 #films {
-  color: red;
   text-decoration: none;
 }
 
 a {
   text-decoration: none;
+  color:tomato;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 li {
   list-style-type: none;
   margin-bottom: 10px;
+  border-style:double;
+  border-color: lightblue;
+  padding: 5px;
 }
 
 button {
   padding: 5px;
   margin-top: 10px;
+  background-color:black;
+}
+
+button > a {
+  color: red;
 }
 
 code {
