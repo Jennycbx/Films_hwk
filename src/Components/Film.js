@@ -1,10 +1,10 @@
 const Film = ({title, url}) => {
 
     return (
-        <>
-            <h3>{title}</h3>
-            <p>{url}</p>
-        </>
+        <li>
+             <a href={url}>{title}</a>
+        </li>
+
     )
 }
 

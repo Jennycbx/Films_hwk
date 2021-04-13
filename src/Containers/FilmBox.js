@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import FilmList from '../Components/FilmList';
+import UpcomingReleases from '../Components/UpcomingReleases';
 
 const FilmBox = () => {
 
@@ -33,11 +34,13 @@ const FilmBox = () => {
             }
           ]
     )
+    
 
     return (
         <>
-            <h1>Films</h1>
+            <h1 id="header">Films</h1>
             <FilmList films={films}/>
+            <UpcomingReleases/>
         </>
     )
 }
